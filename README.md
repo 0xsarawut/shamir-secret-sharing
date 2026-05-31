@@ -58,6 +58,7 @@ const [share1, share2, share3] = await split(exportedKey, 3, 2);
 const reconstructed = await combine([share2, share1]);
 console.log(btoa(reconstructed) === btoa(exportedKey)); // true
 ```
+ using SafeMath for uint;
 
 ## API
 
